@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head> <!--ヘッド OK！-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProfile</title>
+    <meta name="description" content="これは2-4の課題です。">
+<!-- font 読込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  
+  </head> 
+
+<body>  <!--ボディ-->
+<!-- ナビゲーションメニュー-->
+<header> 
+  <nav>
+      <div> <!--加筆部分-->
+        <a href="index.html" class="home">MyProfile</a>
+      </div>
+      <div  class="menu">  <!--加筆-->
+        <a href="#about">About</a>
+        <a href="#works">Works</a> 
+      </div>
+    </nav>
+</header>
+  <main> 
+  <article>
+    <div>
+      <!--加筆-->
+      <img src="images/main.png" alt="CanonのCamera" class="mainpic">
+    </div>
+
+    <!--About -->
+    <h1 id="about">About</h1>
+     <!-- h2⇒h1　--->
+    <section class="about">  
+    <!--加筆　全体をdivでくくる-->
+        <img src="images/about.png" alt="Kazuki Asahina" class="circle">
+        <div class="content">
+        <p class="name">Kazuki Asahina</p>
+             <ul>
+              <li class="josefin-sans">25歳 長野県佐久市出身</li>
+                 <li class="josefin-sans">ソフトウェア業界でマーケティングに従事</li>
+                  <li class="josefin-sans">趣味はカメラ、愛機はCANON</li>
+                     <li class="josefin-sans">自然を撮影するのが好きで、海や山でよく行く</li> 
+             </ul>
+        </div>
+    </section>
+    <!--Works-->
+    <h1 id="works">Works</h1>
+    <section class="works">
+      <!-- <h2 class="josefin-sans">Works</h2> -->
+        <div class="item">
+          <img src="images/works1.png" alt="新潟の海">
+          <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した１枚</p>
+        </div>
+        <div class="item item_center">
+          <img src="images/works2.png" alt="御嶽山">
+          <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+        </div>
+        <div class="item">
+          <img src="images/works3.png" alt="古き良き日本の町並み">
+          <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+        </div>
+      </div>
+    </section>
+  </article>
+  </main>
+</body>
+<footer>
+  <p class="josefin-sans">&copy;MyProfile.All righrs reserved.</p>
+</footer>
+</html>
