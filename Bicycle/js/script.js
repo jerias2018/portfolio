@@ -14,8 +14,3 @@ $('.carousel').slick({
       pauseOnHover: false,//マウスホバーで一時停止を無効
       pauseOnDotsHover: false,//ドットナビゲーションをマウスホバーで一時停止を無効
 });
-
-//スマホ用：スライダーをタッチしても止めずにスライドをさせたい場合
-$('.carousel').on('touchmove', function(event, slick, currentSlide, nextSlide){
-  $('.carousel').slick('slickPlay');
-});
